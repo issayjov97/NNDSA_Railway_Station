@@ -1,7 +1,7 @@
-package graphview;
+package main.graphview;
 
-import graph.DiGraph;
-import graph.GraphADT;
+import main.graph.DiGraph;
+import main.graph.GraphADT;
 import javafx.beans.binding.Bindings;
 import javafx.beans.binding.DoubleBinding;
 import javafx.event.ActionEvent;
@@ -29,8 +29,8 @@ import javafx.scene.paint.Color;
 import javafx.scene.shape.Circle;
 import javafx.scene.shape.Line;
 import javafx.scene.text.Text;
-import service.DijkstraSPAlgorithm;
-import service.GraphService;
+import main.service.DijkstraSPAlgorithm;
+import main.service.GraphService;
 
 import java.util.HashMap;
 import java.util.Map;

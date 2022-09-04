@@ -1,7 +1,7 @@
-package service;
+package main.service;
 
-import graph.DiGraph;
-import graph.GraphADT;
+import main.graph.DiGraph;
+import main.graph.GraphADT;
 
 import java.util.HashMap;
 import java.util.Map;

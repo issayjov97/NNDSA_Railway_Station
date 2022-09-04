@@ -1,5 +1,7 @@
-package graph;
+package test.graph;
 
+import main.graph.DiGraph;
+import main.graph.GraphADT;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

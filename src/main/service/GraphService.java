@@ -1,7 +1,7 @@
-package service;
+package main.service;
 
-import graph.DiGraph;
-import graph.GraphADT;
+import main.graph.DiGraph;
+import main.graph.GraphADT;
 import javafx.geometry.Point2D;
 
 import java.io.File;
@@ -18,7 +18,7 @@ public class GraphService {
         final GraphADT<String, Double> graph = new DiGraph<>();
         Scanner scanner = null;
         try {
-            scanner = new Scanner(new File("src/graph.txt"));
+            scanner = new Scanner(new File("src/main.graph.txt"));
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
